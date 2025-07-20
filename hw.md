@@ -1,5 +1,6 @@
 ### Read the code below and try it inside the folder cpp-output-practice
 **We will focus on very basic Practice(Structure of main function and basic output and typing)**
+
 🔹 Question 1
 ```
 #include <iostream>
