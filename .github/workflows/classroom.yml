@@ -1,0 +1,11 @@
+name: Autograde
+
+on: [push, pull_request]
+
+jobs:
+  autograde:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Run tests
+      run: chmod +x ./test_runner.sh && ./test_runner.sh
