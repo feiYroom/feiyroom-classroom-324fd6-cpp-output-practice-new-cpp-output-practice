@@ -1,10 +1,10 @@
 ### Read the code below and try it inside the folder cpp-output-practice
 
 🔹 Question 1
-
+```
 #include <iostream>
 using namespace std;
-```
+
 int main(void) {
     cout << "Hello, world!";
     return 0;
